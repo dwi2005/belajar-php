@@ -11,6 +11,7 @@ $stmt = $pdo -> query($query);
 $products = $stmt->fetchAll();
 foreach($products as $product){
     echo $product['nama']. "<br>";
+    echo    "TES GIT"
 }
 }catch(PDOException $e){
     echo "koneksi gagal:" . $e -> getMessage();
