@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'belajar_php';
+$db = 'belajar-php';
 $usern = 'root';
 $pass = '';
 
